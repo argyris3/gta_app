@@ -1,0 +1,14 @@
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/all';
+gsap.registerPlugin(ScrollTrigger)
+
+const App = () => {
+  return (
+    <main>
+      <div>
+        <h1 className='text-3xl text-red-500'>gta motherfuckers</h1>
+      </div>
+    </main>
+  );
+};
+export default App;
